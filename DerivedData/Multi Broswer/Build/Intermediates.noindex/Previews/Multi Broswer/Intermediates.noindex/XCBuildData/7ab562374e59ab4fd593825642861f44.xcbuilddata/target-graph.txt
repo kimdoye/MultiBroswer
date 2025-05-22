@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'Multi Broswer' in project 'Multi Broswer' (no dependencies)

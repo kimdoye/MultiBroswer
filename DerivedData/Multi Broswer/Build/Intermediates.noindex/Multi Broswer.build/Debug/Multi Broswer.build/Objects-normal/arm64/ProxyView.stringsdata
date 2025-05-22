@@ -1,0 +1,28 @@
+{
+  "source": "/Users/cabbageslayer/Documents/Personal/Multi Broswer/Multi Broswer/Views/ProxyView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Profile"
+      },
+      {
+        "comment": "",
+        "key": "User Profile"
+      },
+      {
+        "comment": "",
+        "key": "View and edit your profile information."
+      },
+      {
+        "comment": "",
+        "key": "Username: YourName"
+      },
+      {
+        "comment": "",
+        "key": "Email: your.email@example.com"
+      }
+    ]
+  },
+  "version": 1
+}

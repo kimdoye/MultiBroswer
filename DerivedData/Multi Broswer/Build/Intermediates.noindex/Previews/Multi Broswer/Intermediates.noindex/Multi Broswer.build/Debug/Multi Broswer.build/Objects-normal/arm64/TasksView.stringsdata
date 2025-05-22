@@ -1,0 +1,20 @@
+{
+  "source": "/Users/cabbageslayer/Documents/Personal/Multi Broswer/Multi Broswer/Views/TasksView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Tasks"
+      },
+      {
+        "comment": "",
+        "key": "Name"
+      },
+      {
+        "comment": "",
+        "key": "Proxy"
+      }
+    ]
+  },
+  "version": 1
+}

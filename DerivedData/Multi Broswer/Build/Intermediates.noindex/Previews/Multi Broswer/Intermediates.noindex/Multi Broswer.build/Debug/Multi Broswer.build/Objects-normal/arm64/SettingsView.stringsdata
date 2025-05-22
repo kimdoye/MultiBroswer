@@ -1,0 +1,24 @@
+{
+  "source": "/Users/cabbageslayer/Documents/Personal/Multi Broswer/Multi Broswer/Views/SettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Settings"
+      },
+      {
+        "comment": "",
+        "key": "Configure your application settings here."
+      },
+      {
+        "comment": "",
+        "key": "Enable Feature X"
+      },
+      {
+        "comment": "",
+        "key": "Value: %lld"
+      }
+    ]
+  },
+  "version": 1
+}
