@@ -1,9 +1,0 @@
-version: "Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)"
-options: "a2439b745e731c82ecb3574e6a24095fb1ec2e56a2674064225a6f6d6c632a6c"
-build_start_time: [1747257410, 653143000]
-build_end_time: [1747257410, 663487000]
-inputs:
-  ? "/Users/cabbageslayer/Documents/Personal/Multi Broswer/DerivedData/Multi Broswer/Index.noindex/Build/Intermediates.noindex/Multi Broswer.build/Debug/Multi Broswer.build/DerivedSources/GeneratedAssetSymbols.swift"
-  : !dirty [1747257401, 142825505]
-  "/Users/cabbageslayer/Documents/Personal/Multi Broswer/Multi Broswer/ContentView.swift": !dirty [1747257383, 744960973]
-  "/Users/cabbageslayer/Documents/Personal/Multi Broswer/Multi Broswer/Multi_BroswerApp.swift": !dirty [1747257383, 742168416]

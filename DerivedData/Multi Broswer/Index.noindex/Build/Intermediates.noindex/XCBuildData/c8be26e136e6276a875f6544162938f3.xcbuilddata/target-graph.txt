@@ -1,6 +1,0 @@
-Target dependency graph (3 targets)
-Target 'Multi BroswerUITests' in project 'Multi Broswer'
-➜ Explicit dependency on target 'Multi Broswer' in project 'Multi Broswer'
-Target 'Multi BroswerTests' in project 'Multi Broswer'
-➜ Explicit dependency on target 'Multi Broswer' in project 'Multi Broswer'
-Target 'Multi Broswer' in project 'Multi Broswer' (no dependencies)
