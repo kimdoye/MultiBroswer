@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63547FB82DE65FBD002553BD /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63547FB72DE65FBD002553BD /* TaskItem.swift */; };
+		63547FBC2DE660BC002553BD /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63547FBB2DE660BC002553BD /* TaskManager.swift */; };
 		638A594C2DD53FA70025533F /* Multi_BroswerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A594B2DD53FA70025533F /* Multi_BroswerApp.swift */; };
 		638A594E2DD53FA70025533F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A594D2DD53FA70025533F /* ContentView.swift */; };
 		638A59502DD53FA90025533F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638A594F2DD53FA90025533F /* Assets.xcassets */; };
 		638A59532DD53FA90025533F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638A59522DD53FA90025533F /* Preview Assets.xcassets */; };
-		638A595E2DD53FA90025533F /* Multi_BroswerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A595D2DD53FA90025533F /* Multi_BroswerTests.swift */; };
-		638A59682DD53FA90025533F /* Multi_BroswerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A59672DD53FA90025533F /* Multi_BroswerUITests.swift */; };
-		638A596A2DD53FA90025533F /* Multi_BroswerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A59692DD53FA90025533F /* Multi_BroswerUITestsLaunchTests.swift */; };
 		638A59772DD552030025533F /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A59762DD552030025533F /* TasksView.swift */; };
 		638A59792DD553520025533F /* ProxyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A59782DD553520025533F /* ProxyView.swift */; };
 		638A597B2DD5536C0025533F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A597A2DD5536C0025533F /* SettingsView.swift */; };
@@ -37,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63547FB72DE65FBD002553BD /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+		63547FBB2DE660BC002553BD /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 		638A59482DD53FA70025533F /* Multi Broswer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi Broswer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		638A594B2DD53FA70025533F /* Multi_BroswerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_BroswerApp.swift; sourceTree = "<group>"; };
 		638A594D2DD53FA70025533F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,10 +45,7 @@
 		638A59522DD53FA90025533F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		638A59542DD53FA90025533F /* Multi_Broswer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Multi_Broswer.entitlements; sourceTree = "<group>"; };
 		638A59592DD53FA90025533F /* Multi BroswerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi BroswerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		638A595D2DD53FA90025533F /* Multi_BroswerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_BroswerTests.swift; sourceTree = "<group>"; };
 		638A59632DD53FA90025533F /* Multi BroswerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi BroswerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		638A59672DD53FA90025533F /* Multi_BroswerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_BroswerUITests.swift; sourceTree = "<group>"; };
-		638A59692DD53FA90025533F /* Multi_BroswerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_BroswerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		638A59762DD552030025533F /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
 		638A59782DD553520025533F /* ProxyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyView.swift; sourceTree = "<group>"; };
 		638A597A2DD5536C0025533F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -78,12 +76,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63547FB92DE65FC4002553BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63547FB72DE65FBD002553BD /* TaskItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63547FBA2DE66089002553BD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				63547FBB2DE660BC002553BD /* TaskManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		638A593F2DD53FA70025533F = {
 			isa = PBXGroup;
 			children = (
 				638A594A2DD53FA70025533F /* Multi Broswer */,
-				638A595C2DD53FA90025533F /* Multi BroswerTests */,
-				638A59662DD53FA90025533F /* Multi BroswerUITests */,
 				638A59492DD53FA70025533F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +115,8 @@
 			children = (
 				638A594B2DD53FA70025533F /* Multi_BroswerApp.swift */,
 				638A597C2DD555660025533F /* Views */,
+				63547FB92DE65FC4002553BD /* Model */,
+				63547FBA2DE66089002553BD /* Managers */,
 				638A594F2DD53FA90025533F /* Assets.xcassets */,
 				638A59542DD53FA90025533F /* Multi_Broswer.entitlements */,
 				638A59512DD53FA90025533F /* Preview Content */,
@@ -116,23 +130,6 @@
 				638A59522DD53FA90025533F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		638A595C2DD53FA90025533F /* Multi BroswerTests */ = {
-			isa = PBXGroup;
-			children = (
-				638A595D2DD53FA90025533F /* Multi_BroswerTests.swift */,
-			);
-			path = "Multi BroswerTests";
-			sourceTree = "<group>";
-		};
-		638A59662DD53FA90025533F /* Multi BroswerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				638A59672DD53FA90025533F /* Multi_BroswerUITests.swift */,
-				638A59692DD53FA90025533F /* Multi_BroswerUITestsLaunchTests.swift */,
-			);
-			path = "Multi BroswerUITests";
 			sourceTree = "<group>";
 		};
 		638A597C2DD555660025533F /* Views */ = {
@@ -277,9 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				638A597B2DD5536C0025533F /* SettingsView.swift in Sources */,
+				63547FB82DE65FBD002553BD /* TaskItem.swift in Sources */,
 				638A594E2DD53FA70025533F /* ContentView.swift in Sources */,
 				638A59772DD552030025533F /* TasksView.swift in Sources */,
 				638A594C2DD53FA70025533F /* Multi_BroswerApp.swift in Sources */,
+				63547FBC2DE660BC002553BD /* TaskManager.swift in Sources */,
 				638A59792DD553520025533F /* ProxyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +287,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				638A595E2DD53FA90025533F /* Multi_BroswerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,8 +294,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				638A59682DD53FA90025533F /* Multi_BroswerUITests.swift in Sources */,
-				638A596A2DD53FA90025533F /* Multi_BroswerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +443,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Multi Broswer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -472,6 +469,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Multi Broswer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
