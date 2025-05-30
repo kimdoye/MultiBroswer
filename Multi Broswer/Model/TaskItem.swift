@@ -1,8 +1,8 @@
 // TaskItem.swift
 import Foundation
 
-struct TaskItem: Identifiable {
-    let id = UUID() // Unique identifier for each task
+struct TaskItem: Identifiable, Codable {
+    let id: UUID // Unique identifier for each task
     var name: String
     var proxy: String
     var show: Bool = false // To track play/pause state
