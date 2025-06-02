@@ -14,7 +14,7 @@ struct ContentView: View {
                     Label("Tasks", systemImage: "house.fill")
                 }
                 NavigationLink(destination: ProxyView()) {
-                    Label("Proxy", systemImage: ".fill")
+                    Label("Proxy", systemImage: "network")
                 }
 
                 NavigationLink(destination: SettingsView()) {
